@@ -26,7 +26,13 @@ public class NumeroTest {
 	@Test
 	public void comprobarNumero2() {
 		
-		assertEquals(10,numero.getNumero1());
+		assertEquals(10,numero.getNumero2());
+	}
+	
+	@Test
+	public void comprobarSuma() {
+		
+		assertEquals(16,numero.suma());
 	}
 	
 }

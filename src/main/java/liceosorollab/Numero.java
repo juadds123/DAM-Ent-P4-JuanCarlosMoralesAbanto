@@ -31,6 +31,11 @@ public class Numero {
 		return "numero1 " + numero1 + ", numero2 " + numero2;
 	}
 
-
+	public int suma() {
+		int total;
+		 total = numero1 +numero2;
+		 
+		return total;
+	}
 	
 }
