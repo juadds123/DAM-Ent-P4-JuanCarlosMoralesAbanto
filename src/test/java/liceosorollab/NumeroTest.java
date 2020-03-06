@@ -41,4 +41,10 @@ public class NumeroTest {
 		assertEquals(-4,numero.resta());
 	}
 	
+	@Test
+	public void comprobarMultiplicar() {
+		
+		assertEquals(60,numero.multiplicar());
+	}
+	
 }

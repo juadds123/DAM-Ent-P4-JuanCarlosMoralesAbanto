@@ -45,6 +45,12 @@ public class Numero {
 		total = numero1-numero2;
 		return total;
 	}
+	
+	public int multiplicar() {
+		return numero1*numero2;
+	}
+	
+	
 
 	
 }
