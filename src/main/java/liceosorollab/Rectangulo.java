@@ -29,5 +29,10 @@ public class Rectangulo {
 		total = this.lado1 * this.lado2;
 		return total;
 	}
+	
+	public int diagonal() {
+		int diagonal = (int) Math.sqrt((Math.pow(this.lado1, 2))+(Math.pow(this.lado2, 2)));
+		return diagonal;
+	}
 }
 

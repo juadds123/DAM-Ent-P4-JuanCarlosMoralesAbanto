@@ -30,4 +30,9 @@ public class RectanguloTest {
 		assertEquals(25,rectangulo.areaRectangulo());
 	}
 	
+	@Test
+	public void compruebaDiagonal() {
+		assertEquals(7,rectangulo.diagonal());
+	}
+	
 }
