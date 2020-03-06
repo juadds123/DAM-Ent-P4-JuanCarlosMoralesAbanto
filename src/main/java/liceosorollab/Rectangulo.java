@@ -23,5 +23,11 @@ public class Rectangulo {
 		total = 2 * (this.lado1 + this.lado2);
 		return total;
 	}
+	
+	public int areaRectangulo() {
+		int total= 0 ;
+		total = this.lado1 * this.lado2;
+		return total;
+	}
 }
 

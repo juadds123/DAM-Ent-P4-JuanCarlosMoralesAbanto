@@ -25,4 +25,9 @@ public class RectanguloTest {
 		assertEquals(20,rectangulo.perimetroRectangulo());
 	}
 	
+	@Test
+	public void compruebaArea() {
+		assertEquals(25,rectangulo.areaRectangulo());
+	}
+	
 }
