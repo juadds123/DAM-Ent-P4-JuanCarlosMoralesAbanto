@@ -58,4 +58,8 @@ public class Numero {
 		
 		return (int)Math.pow(numero1, numero2);	
 	}
+	
+	public boolean multiplo() {
+		return numero1%numero2 == 0;
+	}
 }
