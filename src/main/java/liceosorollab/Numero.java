@@ -38,4 +38,13 @@ public class Numero {
 		return total;
 	}
 	
+	public int resta() {
+		
+		int total;
+		
+		total = numero1-numero2;
+		return total;
+	}
+
+	
 }

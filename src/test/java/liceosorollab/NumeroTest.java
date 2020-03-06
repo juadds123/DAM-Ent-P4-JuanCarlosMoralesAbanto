@@ -35,4 +35,10 @@ public class NumeroTest {
 		assertEquals(16,numero.suma());
 	}
 	
+	@Test
+	public void comprobarResta() {
+		
+		assertEquals(-4,numero.resta());
+	}
+	
 }
