@@ -35,4 +35,9 @@ public class RectanguloTest {
 		assertEquals(7,rectangulo.diagonal());
 	}
 	
+	@Test
+	public void compruebaRadio() {
+		assertEquals(3,rectangulo.radio());
+	}
+	
 }

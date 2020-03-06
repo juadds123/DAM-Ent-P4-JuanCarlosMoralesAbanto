@@ -34,5 +34,15 @@ public class Rectangulo {
 		int diagonal = (int) Math.sqrt((Math.pow(this.lado1, 2))+(Math.pow(this.lado2, 2)));
 		return diagonal;
 	}
+	
+	public int radio() {
+		int radio;
+		int Menor = this.lado1;
+		if(this.lado2 < this.lado1) {
+			Menor=this.lado2;
+		}
+		radio = Menor/2;
+		return radio;
+	}
 }
 
