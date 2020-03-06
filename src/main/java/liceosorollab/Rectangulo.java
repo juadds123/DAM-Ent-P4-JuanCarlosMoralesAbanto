@@ -17,5 +17,11 @@ public class Rectangulo {
 		};
 		return cuadrado;
 	}
+	
+	public int perimetroRectangulo() {
+		int total= 0 ;
+		total = 2 * (this.lado1 + this.lado2);
+		return total;
+	}
 }
 

@@ -20,4 +20,9 @@ public class RectanguloTest {
 		assertEquals(true,rectangulo.cuadrado());
 	}
 	
+	@Test
+	public void compruebaPerimetro() {
+		assertEquals(20,rectangulo.perimetroRectangulo());
+	}
+	
 }
