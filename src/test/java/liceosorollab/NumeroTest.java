@@ -47,4 +47,10 @@ public class NumeroTest {
 		assertEquals(60,numero.multiplicar());
 	}
 	
+	@Test
+	public void comprobarDivision() {
+		
+		assertEquals(0,numero.dividir());
+	}
+	
 }
