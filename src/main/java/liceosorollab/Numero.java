@@ -52,5 +52,10 @@ public class Numero {
 	
 	public int dividir() {
 		return numero1/numero2;
-	}	
+	}
+	
+	public int potencia() {
+		
+		return (int)Math.pow(numero1, numero2);	
+	}
 }

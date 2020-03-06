@@ -53,4 +53,10 @@ public class NumeroTest {
 		assertEquals(0,numero.dividir());
 	}
 	
+	@Test
+	public void comprobarPotencia() {
+		
+		assertEquals(3,numero.potencia());
+	}
+	
 }
