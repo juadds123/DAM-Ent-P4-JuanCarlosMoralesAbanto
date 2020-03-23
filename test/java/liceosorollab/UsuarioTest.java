@@ -65,4 +65,9 @@ public class UsuarioTest {
 	public void comprobarNombreCompletoMayusculas() {
 		assertEquals("ALEJANDRO SANCHEZ FERNANDEZ",usuario.nombreCompletoMayus());
 	}
+	
+	@Test
+	public void comprobarNombreCompletoMinusculas() {
+		assertEquals("alejandro sanchez fernandez",usuario.nombreCompletoMinus());
+	}
 }

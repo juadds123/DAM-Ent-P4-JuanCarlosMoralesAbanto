@@ -65,4 +65,12 @@ public class Usuario {
 		return nombreCompletoMayus;
 	}
 	
+	public String nombreCompletoMinus() {
+		String nombreCompletoMinus;
+		
+		nombreCompletoMinus = (this.nombre +" "+ this.apellidos).toLowerCase();
+		
+		return nombreCompletoMinus;
+	}
+	
 }
