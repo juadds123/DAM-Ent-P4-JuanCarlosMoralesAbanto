@@ -4,11 +4,11 @@ public class Animal {
 	
 	private String especie;
 	private String raza;
-	private double peso;
+	private int peso;
 	private int edad;
 	private String colorPelo;
 
-	public Animal(String especie, String raza, double peso, int edad, String colorPelo) {
+	public Animal(String especie, String raza, int peso, int edad, String colorPelo) {
 		this.especie = especie;
 		this.raza = raza;
 		this.peso = peso;
@@ -32,11 +32,11 @@ public class Animal {
 		this.raza = raza;
 	}
 
-	public double getPeso() {
+	public int getPeso() {
 		return peso;
 	}
 
-	public void setPeso(double peso) {
+	public void setPeso(int peso) {
 		this.peso = peso;
 	}
 
