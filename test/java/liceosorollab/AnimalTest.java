@@ -13,4 +13,9 @@ public class AnimalTest {
 	public void Before() {
 		animal = new Animal("Mamifero","Gato",3,2,"gris");
 	}
+	
+	@Test
+	public void comprobarEspecie() {
+		assertEquals("Mamifero", animal.getEspecie());
+	}
 }

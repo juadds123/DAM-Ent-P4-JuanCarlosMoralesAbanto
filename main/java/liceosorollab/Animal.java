@@ -9,6 +9,7 @@ public class Animal {
 	private String colorPelo;
 
 	public Animal(String especie, String raza, double peso, int edad, String colorPelo) {
+		this.especie = especie;
 		this.raza = raza;
 		this.peso = peso;
 		this.edad = edad;
