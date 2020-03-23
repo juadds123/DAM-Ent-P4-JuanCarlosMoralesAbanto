@@ -14,7 +14,7 @@ public class UsuarioTest {
 	@Before
 	public void Before() {
 
-		usuario = new Usuario("Alejandro","	Sanchez Fernandez", LocalDate.of(2000, 06, 10), 6);
+		usuario = new Usuario("Alejandro","Sanchez Fernandez", LocalDate.of(2000, 06, 10), 6);
 	}
 
 	@Test
@@ -35,7 +35,7 @@ public class UsuarioTest {
 
 	public void comprobarNombreCompleto() {
 
-		assertEquals("Alejandro Sanchez Fernandez ", usuario.getNombre()+ " "+usuario.getApellidos());
+		assertEquals("Alejandro Sanchez Fernandez", usuario.getNombre()+" "+usuario.getApellidos());
 	}
 
 	@Test
@@ -59,5 +59,10 @@ public class UsuarioTest {
 	@Test
 	public void comprobarNombreMinusculas() {
 		assertEquals("alejandro",usuario.getNombre().toLowerCase());
+	}
+	
+	@Test
+	public void comprobarNombreCompletoMayusculas() {
+		assertEquals("ALEJANDRO SANCHEZ FERNANDEZ",usuario.nombreCompletoMayus());
 	}
 }

@@ -56,4 +56,13 @@ public class Usuario {
 		return mayorEdad;
 
 	}
+	
+	public String nombreCompletoMayus() {
+		String nombreCompletoMayus;
+		
+		nombreCompletoMayus = (this.nombre +" "+ this.apellidos).toUpperCase();
+		
+		return nombreCompletoMayus;
+	}
+	
 }
