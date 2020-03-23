@@ -34,4 +34,9 @@ public class AnimalTest {
 		assertEquals(2 ,animal.getEdad());
 	}
 	
+	@Test
+	public void comprobarColorPelo() {
+		assertEquals("gris" ,animal.getColorPelo());
+	}
+	
 }
